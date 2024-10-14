@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Burger - Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 40px;
+        }
+        .menu-item {
+            background-color: white;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .menu-item h3 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .menu-item p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #555;
+        }
+        .menu-item .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #43A047;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h3>YUMMY BURGER</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipe.html">Recipe</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Our Recipes</h1>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://i.imgur.com/eTmWoAN.png" alt="Burger 1">
+                <h3>Beef Burger</h3>
+                <p>Delicious beef patty with fresh veggies and sauces.</p>
+                <p class="price">Rp 43.637</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://i.imgur.com/eTmWoAN.png" alt="Burger 2">
+                <h3>Chicken Burger</h3>
+                <p>Crispy chicken fillet with cheese and lettuce.</p>
+                <p class="price">Rp 36.364</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://i.imgur.com/eTmWoAN.png" alt="Burger 3">
+                <h3>Fish Burger</h3>
+                <p>Tasty fish fillet with a light, crispy coating.</p>
+                <p class="price">Rp 31.819</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://i.imgur.com/eTmWoAN.png" alt="Hotdog">
+                <h3>Hotdog Special</h3>
+                <p>Grilled hotdog with mustard and ketchup.</p>
+                <p class="price">Rp 35.455</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
